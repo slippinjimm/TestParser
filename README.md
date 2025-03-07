@@ -5,7 +5,7 @@
 Для запуска необходимо ввести следующие комманды
 
 1. Для установки необходимых библиотек
-```pip install requirements.txt```
+```pip install -r requirements.txt```
 
 2. для запуска redis контейнера
 ```docker run --name my-redis -p 6379:6379 -d redis:alpine redis-server --requirepass "redis_pas"```
